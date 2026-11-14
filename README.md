@@ -44,7 +44,7 @@ A complete end-to-end data analytics project analyzing **1,465,808 adverse event
 ```
 FDA_FAERS_Drug_Safety_Analysis/
 ├── data/
-│   ├── cleaned/          # Analysis-ready cleaned CSVs
+│   ├── cleaned/          # Analysis-ready cleaned CSVs (not included as it reaches the 100MB limit size)
 │   └── raw/              # Raw FAERS files (not included — download from FDA)
 ├── notebooks/
 │   └── FAERS_Analysis.ipynb    # Complete Python pipeline
@@ -205,24 +205,3 @@ Connected Tableau to the pre-aggregated `tb_` tables as Extracts (not Live conne
 | Successfully mapped to generic name | RxNorm ingredient lookup | 470 of 500 (94%) |
 | Drug rows standardized to generic name | Out of 7,801,018 total | 5,276,680 (67.6%) |
 | Unmapped rows (kept original name) | Combo drugs, discontinued brands, vague terms | 2,524,338 (32.4%) |
-
----
-
-## Dashboard Screenshots
-
-### Overview
-![Overview](dashboard_images/01_Overview.png)
-
-### Drug Safety Signals
-![Drug Safety Signals](dashboard_images/02_Drug_Safety_Signals.png)
-
-### Patient Demographics
-![Patient Demographics](dashboard_images/03_Patient_Demographics.png)
-
-### Geography & Reporters
-![Geography & Reporters](dashboard_images/04_Geography_Reporters.png)
-
-### Data Quality & Methodology
-![Data Quality](dashboard_images/05_Data_Quality_Methodology.png)
-
----
