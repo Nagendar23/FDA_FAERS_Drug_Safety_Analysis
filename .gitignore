@@ -1,0 +1,37 @@
+# Raw FAERS data files — too large for GitHub (download from FDA directly)
+data/Raw Data Files/
+
+# Tableau extract files — regenerated from MySQL
+*.hyper
+*.tde
+Dashboard
+tb_country
+tb_data_quality
+tb_demo_outcome
+tb_demographics
+tb_drug
+tb_drug_reaction2
+tb_kpi
+tb_monthly
+tb_outcome_mix
+tb_reaction
+tb_reporter
+
+# All cleaned FAERS datasets - as it exceeds 100MB limit
+/data/Cleaned CSV files/demo_cleaned_2025.csv
+/data/Cleaned CSV files/drug_cleaned_2025.csv
+/data/Cleaned CSV files/indi_cleaned_2025.csv
+/data/Cleaned CSV files/outc_cleaned_2025.csv
+/data/Cleaned CSV files/reac_cleaned_2025.csv
+/data/Cleaned CSV files/rpsr_cleaned_2025.csv
+/data/Cleaned CSV files/ther_cleaned_2025.csv
+
+# Tableau temporary and backup files
+*.twbr
+
+# Tableau temporary and backup files
+*.twbr
+
+# Tableau extract files - exclude regenerated extracts
+*.hyper
+*.tde
